@@ -14,7 +14,6 @@
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css">
    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-   <link rel="stylesheet" href="css/nouislider.min.css">
    <link rel="stylesheet" href="css/choices.min.css">
    <link rel="stylesheet" href="css/splide.min.css">
    <link rel="stylesheet" href="css/air-datepicker.css">
@@ -213,7 +212,7 @@
                                  <span class="contacts__mail-text">
                                     <b>E-mail:</b>
                                  </span>
-                                 <a class="contacts__mail" href="abc@mail.ru">
+                                 <a class="contacts__mail" href="mailto:abc@mail.ru">
                                     abc@mail.ru
                                  </a>
                               </div>
@@ -262,9 +261,44 @@
       <footer class="footer">
          <div class="container">
             <div class="footer__inner">
-
-
-
+               <div class="footer__navigation-block">
+                  <a class="footer__logo" href="#">
+                     <img class="footer__logo-img" src="images/footer/footer-logo.svg" alt="">
+                  </a>
+                  <div class="footer__navigation">
+                     <nav class="footer__menu">
+                        <ul class="footer-menu__list">
+                           <li class="footer-menu__list-item">
+                              <a class="footer-menu__list-link" href="#">О нас</a>
+                           </li>
+                           <li class="footer-menu__list-item">
+                              <a class="footer-menu__list-link" href="#">Каталог</a>
+                           </li>
+                           <li class="footer-menu__list-item">
+                              <a class="footer-menu__list-link" href="#">Акции</a>
+                           </li>
+                           <li class="footer-menu__list-item">
+                              <a class="footer-menu__list-link" href="#">Наши клиенты</a>
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <div class="footer__contacts-block">
+                  <div class="footer__contacts-item">
+                     <a class="footer__contacts-phone" href="tel:81234597890">
+                        8 123 459 7890
+                     </a>
+                  </div>
+                  <div class="footer__contacts-item">
+                     <!-- <button class="footer__contacts-btn">
+                        Оставить заявку
+                     </button> -->
+                     <a class="footer__contacts-btn" data-fancybox data-src="#application" href="javascript:;">
+                        Оставить заявку
+                     </a>
+                  </div>
+               </div>
             </div>
          </div>
       </footer>
@@ -369,7 +403,6 @@
    <script src="js/splide-extension-auto-scroll.min.js"></script>
    <script src="js/wNumb.min.js"></script>
    <script src="js/choices.min.js"></script>
-   <script src="js/nouislider.min.js"></script>
    <script src="js/main.min.js"></script>
 </body>
 
